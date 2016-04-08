@@ -2,8 +2,8 @@
 
 int main(){
 	int n = 0;
-	long long max1 = 0;
-	long long max2 = 0;
+	int max1 = 0;
+	int max2 = 0;
 	long long result = 0;
 	int aux = 0;
 	
@@ -27,7 +27,7 @@ int main(){
 		}		
 	}
 
-	result =  max1 * max2;
+	result = (long long) max1 * max2;
 	std::cout << result;
 	
 	return 0;
