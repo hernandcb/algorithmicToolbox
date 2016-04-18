@@ -4,7 +4,7 @@ int calc_fib_recursive(int n) {
     if (n <= 1)
         return n;
 
-    return calc_fib(n - 1) + calc_fib(n - 2);
+    return calc_fib_recursive(n - 1) + calc_fib_recursive(n - 2);
 }
 
 long calc_fibonacci(int n){
