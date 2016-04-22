@@ -6,3 +6,4 @@ Debug
 Makefile
 *.exe
 *.mk
+*.db
